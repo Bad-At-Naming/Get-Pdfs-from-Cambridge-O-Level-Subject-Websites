@@ -5,9 +5,9 @@ A python program to automate the downloading of past papers and syllabi from the
 
 To use this file you need to first install the python libraries: 
 
-requests: pip install requests
-beautifulsoup 4: pip install beautifulsoup4
-urllib, os, and re: Come installed with python
+requests: pip install requests   
+beautifulsoup 4: pip install beautifulsoup4   
+urllib, os, and re: Come installed with python   
 
 # How to Use
 
