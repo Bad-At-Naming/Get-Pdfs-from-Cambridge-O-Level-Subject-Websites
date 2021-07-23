@@ -4,7 +4,6 @@ from urllib.request import urlopen
 import requests
 import re
 import os
-
 import re
 
 Subject_Links = [] # Make a list of all the links of the subjects you want to download pdfs of
