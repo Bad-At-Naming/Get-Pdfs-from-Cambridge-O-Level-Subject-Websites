@@ -6,7 +6,15 @@ import re
 import os
 import re
 
-Subject_Links = ["https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-pakistan-studies-2059/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-islamiyat-2058/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-urdu-first-language-3247/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-literature-in-english-2010/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-english-language-1123/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-mathematics-d-4024/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-mathematics-additional-4037/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-physics-5054/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-chemistry-5070/", "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-biology-5090/"]  # Make a list of all the links of the subjects you want to download pdfs of
+Subject_Links = []  
+"""
+Make a list of all the subjects you want to get the syllabi and past papers of e.g.:
+
+Subject_Links = ['https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-pakistan-studies-2059/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-islamiyat-2058/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-urdu-first-language-3247/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-literature-in-english-2010/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-english-language-1123/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-mathematics-d-4024/'] 
+
+for the syllabi and past papers of the subjects: Pakistan Studies, Islamiyat, Urdu First Language, Literature In English, English Language, Mathematics D
+
+"""
 
 
 def get_title(Link):
