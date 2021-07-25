@@ -8,7 +8,7 @@ import re
 
 Subject_Links = []  
 """
-Make a list of all the subjects you want to get the syllabi and past papers of e.g.:
+Make a list of all the subjects you want to get the syllabi and past papers of and replace the [] with said list e.g.:
 
 Subject_Links = ['https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-pakistan-studies-2059/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-islamiyat-2058/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-urdu-first-language-3247/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-literature-in-english-2010/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-english-language-1123/', 'https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-o-level-mathematics-d-4024/'] 
 
